@@ -6,7 +6,7 @@
 <div align="left">
   <h2>Contextualização</h2>
   <h4>
-    Este projeto foi criado com o principal objetivo de aprendizado e desenvolvimento em mente. Não antecipamos a presença de abordagens ideais e complexas. Em vez disso, este é um ambiente onde estamos explorando conceitos e aprimorando nossas habilidades de desenvolvimento de software, buscando abranger desde a codificação até a gestão do ciclo de vida do projeto, adotando uma abordagem que se alinha com os princípios do framework Scrum para orientar nosso processo de desenvolvimento.
+    O principal propósito deste projeto é promover o aprendizado e o desenvolvimento. Não antecipamos a presença de abordagens ideais e complexas. Em vez disso, este é um ambiente onde estamos explorando conceitos e aprimorando nossas habilidades de desenvolvimento de software, buscando abranger desde a codificação até a gestão do ciclo de vida do projeto, adotando uma abordagem que se alinha com os princípios do framework Scrum para orientar nosso processo de desenvolvimento.
   </h4>
 </div>
 
