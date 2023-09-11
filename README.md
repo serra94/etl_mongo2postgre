@@ -32,10 +32,29 @@ Descubra um pouco mais sobre os participantes desse projeto e entre em contato c
         <br />
         <br />
         <a href="https://github.com/serra94">
-          <img src="https://github.com/serra94/etl_mongo2postgre/assets/86005414/96664805-95e7-44c0-8f0b-f2e6703626ee" width="35px;" alt="Link Github"/>
+          <img src="/readme/logotipo-do-github.png" width="35px;" alt="Link Github"/>
         </a> 
         <a href="https://www.linkedin.com/in/thiago-serra-20a2071b0/">
-          <img src="https://github.com/serra94/etl_mongo2postgre/assets/86005414/dd04bfe5-a116-4272-99b4-79d8a90281bc" width="35px;" alt="Link Linkdein"/>
+          <img src="/readme/linkedin.png" width="35px;" alt="Link Linkdein"/>
+        </a> 
+        <br />
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/camilacsserra">
+          <img src="https://avatars.githubusercontent.com/u/100870887?v=4" width="200px;" alt="Camila Serra"/>
+        <br />
+        <br />
+          <span style="font-size: 24px;">
+              <b>Camila Serra</b>
+          </span>
+        </a>
+        <br />
+        <br />
+        <a href="https://github.com/camilacsserra">
+          <img src="/readme/logotipo-do-github.png" width="35px;" alt="Link Github"/>
+        </a> 
+        <a href="https://www.linkedin.com/in/camilacsserra/">
+          <img src="/readme/linkedin.png" width="35px;" alt="Link Linkdein"/>
         </a> 
         <br />
       </td>
