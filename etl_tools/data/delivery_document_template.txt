@@ -1,0 +1,32 @@
+{
+  "delivery_driver": {
+    "name": "João Silva",
+    "cpf": "123.456.789-00",
+    "driver_license": "AB123456",
+    "phone": "(11) 98765-4321",
+    "vehicle_plate": "XYZ-1234",
+    "vehicle_dimensions": {
+      "length": 4.5,
+      "width": 1.8,
+      "height": 2.0
+    },
+    "vehicle_type": "Truck" [Aplicar: Minimo de variações, "Truck", "Van", "Baú", "Mini Cargo"]
+  },
+  "origin": "123 Flower Street", 
+  "origin_gps": {
+    "latitude": -23.563987, [Aplicar: Usar como base localidades de cidades brasileiras ]
+    "longitude": -46.653147 [Aplicar: Usar como base localidades de cidades brasileiras ]
+  },
+  "destination": "456 Main Avenue",
+  "destination_gps": {
+    "latitude": -23.576812, [Aplicar: Usar como base localidades de cidades brasileiras ]
+    "longitude": -46.641882 [Aplicar: Usar como base localidades de cidades brasileiras ]
+  },
+  "estimated_time": "2 hours",
+  "actual_time": "2 hours and 15 minutes",
+  "delivery_date": "2023-09-06",
+  "delivery_date_timestamp": 1673059200, [Aplicar: Usar timestamp "corrido" ]
+  "delivery_date_utc": "2023-09-06T12:00:00Z", [Aplicar: Usar o formato declarado]
+  "delivery_items": [Aplicar: Lista de produtos em quantidades variadas, MIN 1 - MÁX 10 ]
+}
+
