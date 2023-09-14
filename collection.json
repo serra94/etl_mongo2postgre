@@ -1,0 +1,242 @@
+[
+    {
+        "name": "Dr. Calebe Costela",
+        "cpf": "852.790.164-11",
+        "driver_license": "",
+        "phone": "+55 (65) 9 4566 1270",
+        "vehicle_plate": "YUS-9I97",
+        "vehicle_dimensions": {
+            "length": 1.8,
+            "width": 0.2,
+            "height": 5.0
+        },
+        "vehicle_type": "Van",
+        "origin": "Quadra da Rocha, 559",
+        "origin_gps": {
+            "latitude": -20.8022,
+            "longitude": -49.9687
+        },
+        "destination": "Esta\u00e7\u00e3o de Ara\u00fajo, 4",
+        "destination_gps": {
+            "latitude": -21.4649,
+            "longitude": -43.1168
+        },
+        "estimated_time": "22:42"
+    },
+    {
+        "name": "Murilo Gon\u00e7alves",
+        "cpf": "125.873.096-03",
+        "driver_license": "",
+        "phone": "+55 (99) 9 6492-7407",
+        "vehicle_plate": "QVS-8N24",
+        "vehicle_dimensions": {
+            "length": 4.5,
+            "width": 3.2,
+            "height": 0.3
+        },
+        "vehicle_type": "Mini Cargo",
+        "origin": "Vereda Teixeira, 89",
+        "origin_gps": {
+            "latitude": -23.04,
+            "longitude": -51.808
+        },
+        "destination": "Loteamento da Mota, 7",
+        "destination_gps": {
+            "latitude": -14.5238,
+            "longitude": -49.1396
+        },
+        "estimated_time": "22:42"
+    },
+    {
+        "name": "Luana Monteiro",
+        "cpf": "923.857.146-55",
+        "driver_license": "",
+        "phone": "+55 (70) 9 4599-4812",
+        "vehicle_plate": "QUJ-4Y83",
+        "vehicle_dimensions": {
+            "length": 1.6,
+            "width": 1.0,
+            "height": 1.8
+        },
+        "vehicle_type": "Truck",
+        "origin": "Trecho de Ferreira, 2",
+        "origin_gps": {
+            "latitude": -23.355,
+            "longitude": -46.8781
+        },
+        "destination": "Alameda de Moraes, 19",
+        "destination_gps": {
+            "latitude": -7.94802,
+            "longitude": -36.2061
+        },
+        "estimated_time": "22:42"
+    },
+    {
+        "name": "Guilherme Duarte",
+        "cpf": "215.643.807-26",
+        "driver_license": "",
+        "phone": "+55 13 9 6383 7987",
+        "vehicle_plate": "TVE-7F36",
+        "vehicle_dimensions": {
+            "length": 3.3,
+            "width": 2.1,
+            "height": 3.8
+        },
+        "vehicle_type": "Van",
+        "origin": "Vale Gomes, 90",
+        "origin_gps": {
+            "latitude": -9.47937,
+            "longitude": -44.5811
+        },
+        "destination": "Viela de Ribeiro, 81",
+        "destination_gps": {
+            "latitude": -29.0975,
+            "longitude": -51.4503
+        },
+        "estimated_time": "22:42"
+    },
+    {
+        "name": "Stephany Porto",
+        "cpf": "817.530.296-86",
+        "driver_license": "",
+        "phone": "+55 (042) 92317-2181",
+        "vehicle_plate": "ZND-3I65",
+        "vehicle_dimensions": {
+            "length": 4.0,
+            "width": 0.0,
+            "height": 2.2
+        },
+        "vehicle_type": "Mini Cargo",
+        "origin": "Recanto de da Paz, 79",
+        "origin_gps": {
+            "latitude": -6.36281,
+            "longitude": -39.2892
+        },
+        "destination": "Fazenda de Campos",
+        "destination_gps": {
+            "latitude": -10.9428,
+            "longitude": -40.4155
+        },
+        "estimated_time": "22:42"
+    },
+    {
+        "name": "Vinicius Moreira",
+        "cpf": "734.126.890-50",
+        "driver_license": "",
+        "phone": "+55 (066) 94447-7258",
+        "vehicle_plate": "JQJ-5E09",
+        "vehicle_dimensions": {
+            "length": 0.8,
+            "width": 2.1,
+            "height": 1.1
+        },
+        "vehicle_type": "Mini Cargo",
+        "origin": "Campo Maria Castro, 64",
+        "origin_gps": {
+            "latitude": -9.93043,
+            "longitude": -36.559
+        },
+        "destination": "Lago Campos, 3",
+        "destination_gps": {
+            "latitude": -3.67796,
+            "longitude": -42.7527
+        },
+        "estimated_time": "22:42"
+    },
+    {
+        "name": "Davi Santos",
+        "cpf": "402.653.978-47",
+        "driver_license": "",
+        "phone": "+55 (52) 98976 3923",
+        "vehicle_plate": "ROF-3Z23",
+        "vehicle_dimensions": {
+            "length": 3.4,
+            "width": 0.1,
+            "height": 4.5
+        },
+        "vehicle_type": "Van",
+        "origin": "Rua de Nunes, 67",
+        "origin_gps": {
+            "latitude": -22.8535,
+            "longitude": -52.3411
+        },
+        "destination": "Ch\u00e1cara das Neves, 37",
+        "destination_gps": {
+            "latitude": -20.4579,
+            "longitude": -47.5904
+        },
+        "estimated_time": "22:42"
+    },
+    {
+        "name": "Bruna da Costa",
+        "cpf": "287.694.350-65",
+        "driver_license": "",
+        "phone": "+55 74 99859-4993",
+        "vehicle_plate": "YWO-1B17",
+        "vehicle_dimensions": {
+            "length": 0.2,
+            "width": 2.4,
+            "height": 3.1
+        },
+        "vehicle_type": "Ba\u00fa",
+        "origin": "Campo de Caldeira, 84",
+        "origin_gps": {
+            "latitude": -12.1335,
+            "longitude": -38.4208
+        },
+        "destination": "\u00c1rea de da Mota, 18",
+        "destination_gps": {
+            "latitude": -29.3508,
+            "longitude": -51.7748
+        },
+        "estimated_time": "22:42"
+    },
+    {
+        "name": "Jo\u00e3o Lucas Novaes",
+        "cpf": "491.560.273-70",
+        "driver_license": "",
+        "phone": "+55 34 95298-7263",
+        "vehicle_plate": "SKE-2J64",
+        "vehicle_dimensions": {
+            "length": 1.0,
+            "width": 3.6,
+            "height": 0.4
+        },
+        "vehicle_type": "Mini Cargo",
+        "origin": "Aeroporto Gabriela Souza, 6",
+        "origin_gps": {
+            "latitude": -28.518,
+            "longitude": -49.3238
+        },
+        "destination": "Viaduto de Melo, 51",
+        "destination_gps": {
+            "latitude": -27.5691,
+            "longitude": -53.9695
+        },
+        "estimated_time": "22:42"
+    },
+    {
+        "name": "Isabel Vieira",
+        "cpf": "678.540.923-38",
+        "driver_license": "",
+        "phone": "+55 (054) 92009-2586",
+        "vehicle_plate": "MFZ-8M73",
+        "vehicle_dimensions": {
+            "length": 2.3,
+            "width": 0.5,
+            "height": 3.5
+        },
+        "vehicle_type": "Ba\u00fa",
+        "origin": "Esplanada Cardoso, 6",
+        "origin_gps": {
+            "latitude": -21.096,
+            "longitude": -46.2049
+        },
+        "destination": "Trevo Jesus, 708",
+        "destination_gps": {
+            "latitude": -19.4158,
+            "longitude": -43.3182
+        },
+        "estimated_time": "22:42"
+    }
+]
