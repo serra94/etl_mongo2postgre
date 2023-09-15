@@ -65,10 +65,3 @@ Descubra um pouco mais sobre os participantes desse projeto e entre em contato c
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-Continua...
-
-
-Meu primeiro commit Camila
-
-Teste de pull para Camila
