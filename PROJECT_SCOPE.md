@@ -8,7 +8,7 @@ TransportLogistics Inc.
 
 **Descrição do Cliente Fictício:** 
 
-A TransportLogistics Inc. é uma empresa líder no setor de transportes, especializada em logística e entrega de mercadorias em todo o país. Com uma frota extensa de veículos equipados com sensores avançados, a empresa coleta uma ampla variedade de dados em tempo real, incluindo localização, condições de carga e status de entrega.
+A TransportLogistics Inc. é uma empresa que está crescendo no setor de transportes, especializada em logística e entrega de mercadorias em todo o país. Com uma frota extensa de veículos equipados com sensores avançados, a empresa coleta uma ampla variedade de dados em tempo real, incluindo localização, condições de carga e status de entrega.
 
 Atualmente, a empresa armazena todos esses dados em um banco de dados MongoDB altamente eficiente. No entanto, eles enfrentam um desafio crítico: a necessidade de criar dashboards e realizar análises de dados abrangentes sobre o desempenho de suas entregas e logística. Embora o MongoDB seja excelente para armazenar esses dados em tempo real, sua estrutura não é ideal para a criação de análises e relatórios avançados, o que dificulta a obtenção de insights cruciais.
 
@@ -61,26 +61,26 @@ Este projeto representa um sistema de Extração, Transformação e Carregamento
  
 - **Protótipos Básicos de Telas:**
 
-  Inicialmente se espera uma visão básica das operações em andamento com as seguintes informações:
+  - Inicialmente se espera uma visão básica das operações em andamento com as seguintes informações:
 
-  - Origem (_Nome da coleção de origem_)
-  - Status da operação
-  - Destino (_Nome que terá dentro do banco Postgre_)
-  - Última data de atualização
-  - Ultima data de sincronização
-  - Tempo médio de sincronização
+    - Origem (_Nome da coleção de origem_)
+    - Status da operação
+    - Destino (_Nome que terá dentro do banco Postgre_)
+    - Última data de atualização
+    - Ultima data de sincronização
+    - Tempo médio de sincronização
 
-  **EXEMPLO**
+   **_Exemplo:_**
   
     ![home_basica_montogre](https://github.com/serra94/etl_mongo2postgre/assets/86005414/f8ad5b4b-9a89-46df-8171-91e38982f61a)
 
-  Incialmente as configurações que vão indicar a origem e destino dos dados bem como seu devido tratamento poderá ser fornecido via um arquivo (_.YML sugestão_) e posteriormente ser desenvolvida uma interface que permita o usuário cadastrar diretamente as configurações.
+  - Incialmente as configurações que vão indicar a origem e destino dos dados bem como seu devido tratamento poderá ser fornecido via um arquivo (_.YML sugestão_) e posteriormente ser desenvolvida uma interface que permita o usuário cadastrar diretamente as configurações.
   
-  **EXEMPLO**
+   **_Exemplo:_**
 
   ![home_basica_montogre_enviar_arquivo_conf](https://github.com/serra94/etl_mongo2postgre/assets/86005414/f6c98bd2-bf2a-40c0-9679-e5108c569709)
 
-  **SIMULAÇÃO**
+  **_Simulação:_**
 
   ![interacao_animada](project_scope_file/exemplo_montogre.gif)
 
