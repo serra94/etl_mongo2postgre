@@ -39,7 +39,7 @@ def get_location_data(file_name):
 
         data = list(read)
         
-        for i in range(2):
+        for i in range(1):
             row = random.choice(data)
             city_id = row[0]
             latitude = row[2]
@@ -68,10 +68,6 @@ Dessa forma temos espaço pra se caso a base de dados for ampliada ou alterada.
 
 def data_creator(times):
 
-    with open('extracted_data.json', 'r') as extracted_data:
-        data = json.load(extracted_data)
-    
-    longitude_latitude = data["extracted_data"]
     fake = Faker('pt_BR')
     vehicle_type_list = ["Truck", "Van", "Baú", "Mini Cargo"]
     random_hours = random.randint(1, 23)
@@ -90,20 +86,22 @@ def data_creator(times):
         deliver_drive["vehicle_dimensions"] = {"length":round((random.uniform(0.0, 5.0)), 1), "width":round((random.uniform(0.0, 5.0)), 1),"height":round((random.uniform(0.0, 5.0)), 1)}
         deliver_drive["vehicle_type"] = random.choice(vehicle_type_list)
         deliver_drive["origin"] = fake.street_address()
-        deliver_drive["origin_gps"] = random.choice(longitude_latitude)
+        deliver_drive["origin_gps"] = get_location_data('municipios.csv')
         deliver_drive["destination"] = fake.street_address()
-        deliver_drive["destination_gps"] = random.choice(longitude_latitude)
+        deliver_drive["destination_gps"] = get_location_data('municipios.csv')
         deliver_drive["estimated_time"] = str(random_hours) + ":" + str(random_minutes)
        
         collections.append(deliver_drive)
 
-    output_file = "collection.json"
+    folder_path = "etl_tools/data"
+    file_name = "collection.json"
+    output_file = os.path.join(folder_path, file_name)
 
     with open(output_file, "w") as outfile:
         json.dump(collections, outfile, indent=4)
 
     return f"Extracted data has been saved to {output_file}"
     
-test_1 = data_creator(10)
+test_1 = data_creator(5)
 
 print(test_1)
