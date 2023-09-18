@@ -82,7 +82,7 @@ Este projeto representa um sistema de Extração, Transformação e Carregamento
 
   **_Simulação:_**
 
-  ![interacao_animada](project_scope_file/exemplo_montogre.gif)
+  ![interacao_animada](project_scope_file/ui_montogre.gif)
 
 
 ### Requisitos Funcionais

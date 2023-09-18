@@ -10,10 +10,13 @@ sleep 5
 
 collections=(
 
-    "CheckPoints" 
+    "DriversCollection" 
+    "ProductListCollection" 
+    "VehicleCollection"
+    
 )
 
 for collection in "${collections[@]}"
 do
-  mongoimport --host localhost --port 27017 --db etl_mongo_to_postgre --collection "$collection" --type json --file "/collections_data/$collection.json" --jsonArray
+  mongoimport --host localhost --port 27017 --db montogre --collection "$collection" --type json --file "/collections_data/$collection.json" --jsonArray
 done
