@@ -32,10 +32,10 @@ Descubra um pouco mais sobre os participantes desse projeto e entre em contato c
         <br />
         <br />
         <a href="https://github.com/serra94">
-          <img src="/readme/logotipo-do-github.png" width="35px;" alt="Link Github"/>
+          <img src="/readme/logo_github.png" width="35px;" alt="Link Github"/>
         </a> 
         <a href="https://www.linkedin.com/in/thiago-serra-20a2071b0/">
-          <img src="/readme/linkedin.png" width="35px;" alt="Link Linkdein"/>
+          <img src="/readme/logo_linkedin.png" width="35px;" alt="Link Linkdein"/>
         </a> 
         <br />
       </td>
@@ -51,10 +51,10 @@ Descubra um pouco mais sobre os participantes desse projeto e entre em contato c
         <br />
         <br />
         <a href="https://github.com/camilacsserra">
-          <img src="/readme/logotipo-do-github.png" width="35px;" alt="Link Github"/>
+          <img src="/readme/logo_github.png" width="35px;" alt="Link Github"/>
         </a> 
         <a href="https://www.linkedin.com/in/camilacsserra/">
-          <img src="/readme/linkedin.png" width="35px;" alt="Link Linkdein"/>
+          <img src="/readme/logo_linkedin.png" width="35px;" alt="Link Linkdein"/>
         </a> 
         <br />
       </td>
