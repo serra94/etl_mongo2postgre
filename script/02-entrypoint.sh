@@ -10,7 +10,7 @@ sleep 5
 
 collections=(
 
-    "DriversCollection" 
+    "DriverCollection" 
     "ProductListCollection" 
     "VehicleCollection"
     

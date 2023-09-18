@@ -4,27 +4,32 @@ import random
 from faker import Faker
 
 class DataGenerator:
-    def __init__(self, quantity=1, name='Collection', generate_file=False, output_path='../data'):
+    def __init__(self):
         self.fake = Faker('pt_BR')
-        self.quantity = quantity
-        self.name = name
-        self.generate_file = generate_file
-        self.output_path = output_path
 
     def generate_data(self):
         raise NotImplementedError("Subclasses devem implementar este método")
 
-    def generate(self):
+    def generate(self, quantity=1, generate_file=False, output_path='../data'):
+        self.quantity = quantity
+        self.generate_file = generate_file
+        self.output_path = output_path
+
         data = self.generate_data()
+        collection_name = data[0]
+        
         if self.generate_file:
-            file_path = os.path.join(self.output_path, f'{self.name}.json')
+            documents = data[1]
+            file_path = os.path.join(self.output_path, f'{collection_name}.json')
             with open(file_path, 'w') as json_file:
-                json.dump(data, json_file, indent=2)
+                json.dump(documents, json_file, indent=2)
         else:
-            return self.name, data
+            document = data[1]
+            return collection_name, document
 
 class DriverGenerator(DataGenerator):
     def generate_data(self):
+        collection_name = 'DriverCollection'
         drivers = [{
             'name': self.fake.name(),
             'cnh_number': self.fake.ssn(),
@@ -32,10 +37,11 @@ class DriverGenerator(DataGenerator):
             'phone_number': self.fake.phone_number(),
             'e-mail': self.fake.ascii_free_email()
         } for _ in range(self.quantity)]
-        return drivers
+        return collection_name, drivers
 
 class VehicleGenerator(DataGenerator):
     def generate_data(self):
+        collection_name = 'VehicleCollection'
         vehicles = [{
             'name': random.choice(['Truck', 'Báu', 'Van', 'Mini-Cargo']),
             'vehicle_plate': self.fake.license_plate(),
@@ -45,13 +51,14 @@ class VehicleGenerator(DataGenerator):
                 "height": round(random.uniform(0.0, 5.0), 1)
             }
         } for _ in range(self.quantity)]
-        return vehicles
+        return collection_name, vehicles
 
 class ClientGenerator(DataGenerator):
     def generate_data(self):
+        collection_name = 'ClientCollection'
         clients = [{
             'name': f'{self.fake.company()} {self.fake.company_suffix()}',
             'cnpj': self.fake.cnpj()
 
         } for _ in range(self.quantity)]
-        return clients
+        return collection_name, clients
