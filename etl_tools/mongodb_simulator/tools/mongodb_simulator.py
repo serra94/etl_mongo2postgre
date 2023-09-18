@@ -20,7 +20,8 @@ class DataSimulator:
                     action = random.choice(['create', 'update', 'delete'])
                 
                 if action == 'create' or action == 'update':
-                    data_document = self.data_generator_class().generate()
+                    data_document_instance = self.data_generator_class
+                    data_document = data_document_instance.generate()
                     simulator = MongoDBActions(
                         self.db_address, 
                         self.db_name, 
@@ -34,7 +35,8 @@ class DataSimulator:
                         simulator.update_document()
                         print('UPDATE DOCUMENT')
                 else:
-                    data_document = self.data_generator_class().generate()
+                    data_document_instance = self.data_generator_class
+                    data_document = data_document_instance.generate()
                     simulator = MongoDBActions(
                         self.db_address, 
                         self.db_name, 
