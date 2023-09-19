@@ -1,0 +1,162 @@
+[
+  {
+    "city_id": "2907806",
+    "city_name": "C\u00edcero Dantas",
+    "coordinates": {
+      "latitude": "-10.5897",
+      "longitude": "-38.3794"
+    }
+  },
+  {
+    "city_id": "2504850",
+    "city_name": "Coxixola",
+    "coordinates": {
+      "latitude": "-7.62365",
+      "longitude": "-36.6064"
+    }
+  },
+  {
+    "city_id": "3540259",
+    "city_name": "Pontalinda",
+    "coordinates": {
+      "latitude": "-20.4396",
+      "longitude": "-50.5258"
+    }
+  },
+  {
+    "city_id": "3546900",
+    "city_name": "Santa L\u00facia",
+    "coordinates": {
+      "latitude": "-21.685",
+      "longitude": "-48.0885"
+    }
+  },
+  {
+    "city_id": "3170529",
+    "city_name": "Urucuia",
+    "coordinates": {
+      "latitude": "-16.1244",
+      "longitude": "-45.7352"
+    }
+  },
+  {
+    "city_id": "2313500",
+    "city_name": "Trairi",
+    "coordinates": {
+      "latitude": "-3.26932",
+      "longitude": "-39.2681"
+    }
+  },
+  {
+    "city_id": "4300034",
+    "city_name": "Acegu\u00e1",
+    "coordinates": {
+      "latitude": "-31.8665",
+      "longitude": "-54.1615"
+    }
+  },
+  {
+    "city_id": "4113254",
+    "city_name": "Laranjal",
+    "coordinates": {
+      "latitude": "-24.8862",
+      "longitude": "-52.47"
+    }
+  },
+  {
+    "city_id": "4126355",
+    "city_name": "Serran\u00f3polis do Igua\u00e7u",
+    "coordinates": {
+      "latitude": "-25.3799",
+      "longitude": "-54.0518"
+    }
+  },
+  {
+    "city_id": "2100808",
+    "city_name": "Anapurus",
+    "coordinates": {
+      "latitude": "-3.67577",
+      "longitude": "-43.1014"
+    }
+  },
+  {
+    "city_id": "3305554",
+    "city_name": "Serop\u00e9dica",
+    "coordinates": {
+      "latitude": "-22.7526",
+      "longitude": "-43.7155"
+    }
+  },
+  {
+    "city_id": "2112233",
+    "city_name": "Trizidela do Vale",
+    "coordinates": {
+      "latitude": "-4.538",
+      "longitude": "-44.628"
+    }
+  },
+  {
+    "city_id": "3532900",
+    "city_name": "Nova Europa",
+    "coordinates": {
+      "latitude": "-21.7765",
+      "longitude": "-48.5705"
+    }
+  },
+  {
+    "city_id": "3305406",
+    "city_name": "Sapucaia",
+    "coordinates": {
+      "latitude": "-21.9949",
+      "longitude": "-42.9142"
+    }
+  },
+  {
+    "city_id": "1503606",
+    "city_name": "Itaituba",
+    "coordinates": {
+      "latitude": "-4.2667",
+      "longitude": "-55.9926"
+    }
+  },
+  {
+    "city_id": "4313607",
+    "city_name": "Paim Filho",
+    "coordinates": {
+      "latitude": "-27.7075",
+      "longitude": "-51.763"
+    }
+  },
+  {
+    "city_id": "5219704",
+    "city_name": "Santa Terezinha de Goi\u00e1s",
+    "coordinates": {
+      "latitude": "-14.4326",
+      "longitude": "-49.7091"
+    }
+  },
+  {
+    "city_id": "5205208",
+    "city_name": "Catura\u00ed",
+    "coordinates": {
+      "latitude": "-16.4447",
+      "longitude": "-49.4936"
+    }
+  },
+  {
+    "city_id": "4219705",
+    "city_name": "Xaxim",
+    "coordinates": {
+      "latitude": "-26.9596",
+      "longitude": "-52.5374"
+    }
+  },
+  {
+    "city_id": "2704906",
+    "city_name": "Mar Vermelho",
+    "coordinates": {
+      "latitude": "-9.44739",
+      "longitude": "-36.3881"
+    }
+  }
+]

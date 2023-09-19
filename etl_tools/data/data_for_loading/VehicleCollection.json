@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Van",
+    "vehicle_plate": "LPH-2H11",
+    "dimensions": {
+      "length": 3.4,
+      "width": 1.1,
+      "height": 4.1
+    }
+  },
+  {
+    "name": "Mini-Cargo",
+    "vehicle_plate": "ZPL-8L19",
+    "dimensions": {
+      "length": 4.1,
+      "width": 3.4,
+      "height": 0.7
+    }
+  },
+  {
+    "name": "Truck",
+    "vehicle_plate": "ESY-0B89",
+    "dimensions": {
+      "length": 2.7,
+      "width": 2.6,
+      "height": 3.7
+    }
+  },
+  {
+    "name": "B\u00e1u",
+    "vehicle_plate": "ZQC-8H46",
+    "dimensions": {
+      "length": 0.9,
+      "width": 3.7,
+      "height": 4.3
+    }
+  },
+  {
+    "name": "Van",
+    "vehicle_plate": "TZC-2S01",
+    "dimensions": {
+      "length": 4.6,
+      "width": 4.3,
+      "height": 1.3
+    }
+  },
+  {
+    "name": "Van",
+    "vehicle_plate": "XRM-5D88",
+    "dimensions": {
+      "length": 0.9,
+      "width": 0.5,
+      "height": 3.0
+    }
+  },
+  {
+    "name": "Truck",
+    "vehicle_plate": "AEY-6E33",
+    "dimensions": {
+      "length": 2.3,
+      "width": 3.0,
+      "height": 3.5
+    }
+  },
+  {
+    "name": "Truck",
+    "vehicle_plate": "SRO-8Y17",
+    "dimensions": {
+      "length": 0.8,
+      "width": 2.3,
+      "height": 0.3
+    }
+  },
+  {
+    "name": "Van",
+    "vehicle_plate": "UEN-7N74",
+    "dimensions": {
+      "length": 3.0,
+      "width": 3.2,
+      "height": 3.5
+    }
+  },
+  {
+    "name": "B\u00e1u",
+    "vehicle_plate": "FWW-3P43",
+    "dimensions": {
+      "length": 2.2,
+      "width": 0.7,
+      "height": 3.9
+    }
+  },
+  {
+    "name": "Mini-Cargo",
+    "vehicle_plate": "BHV-0S86",
+    "dimensions": {
+      "length": 1.6,
+      "width": 2.6,
+      "height": 2.2
+    }
+  },
+  {
+    "name": "Truck",
+    "vehicle_plate": "SUR-1V13",
+    "dimensions": {
+      "length": 1.3,
+      "width": 2.2,
+      "height": 4.8
+    }
+  },
+  {
+    "name": "Truck",
+    "vehicle_plate": "RCK-3K63",
+    "dimensions": {
+      "length": 0.4,
+      "width": 2.2,
+      "height": 3.1
+    }
+  },
+  {
+    "name": "Van",
+    "vehicle_plate": "MYW-8K03",
+    "dimensions": {
+      "length": 4.0,
+      "width": 4.7,
+      "height": 4.3
+    }
+  },
+  {
+    "name": "B\u00e1u",
+    "vehicle_plate": "HWC-7U27",
+    "dimensions": {
+      "length": 0.8,
+      "width": 2.9,
+      "height": 2.7
+    }
+  },
+  {
+    "name": "Van",
+    "vehicle_plate": "PXB-6U22",
+    "dimensions": {
+      "length": 3.9,
+      "width": 4.4,
+      "height": 4.2
+    }
+  },
+  {
+    "name": "B\u00e1u",
+    "vehicle_plate": "LHO-5A55",
+    "dimensions": {
+      "length": 2.0,
+      "width": 3.6,
+      "height": 3.1
+    }
+  },
+  {
+    "name": "Mini-Cargo",
+    "vehicle_plate": "IYV-0W62",
+    "dimensions": {
+      "length": 2.3,
+      "width": 0.4,
+      "height": 0.6
+    }
+  },
+  {
+    "name": "Truck",
+    "vehicle_plate": "VVS-7F84",
+    "dimensions": {
+      "length": 3.4,
+      "width": 0.2,
+      "height": 3.0
+    }
+  },
+  {
+    "name": "Mini-Cargo",
+    "vehicle_plate": "QWU-1Q82",
+    "dimensions": {
+      "length": 1.4,
+      "width": 1.4,
+      "height": 1.9
+    }
+  }
+]

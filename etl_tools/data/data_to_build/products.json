@@ -978,33 +978,5 @@
         "weight": 1.5,
         "price": 89.9,
         "product_id": 8395173568725
-    },
-    {
-        "product_name": "Escova de Dentes El\u00e9trica",
-        "category": "Sa\u00fade",
-        "maker": "Oral-B",
-        "unit_measurement": "Unidade",
-        "dimensions": {
-            "width": 2,
-            "height": 10,
-            "depth": 2
-        },
-        "weight": 0.2,
-        "price": 39.99,
-        "product_id": 4340107200738
-    },
-    {
-        "product_name": "Guarda-chuva",
-        "category": "Acess\u00f3rios",
-        "maker": "Totes",
-        "unit_measurement": "Unidade",
-        "dimensions": {
-            "width": 2,
-            "height": 12,
-            "depth": 2
-        },
-        "weight": 0.3,
-        "price": 19.95,
-        "product_id": 8422906791487
     }
 ]

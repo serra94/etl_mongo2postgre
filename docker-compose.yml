@@ -10,7 +10,7 @@ services:
         - "27017:27017"
       volumes:
         - mongo_data:/data/db
-        - ./etl_tools/mongodb_simulator/data:/collections_data
+        - ./etl_tools/data/data_for_loading:/collections_data
         - ./script/01-rs-initiate.js:/docker-entrypoint-initdb.d/01-rs-initiate.js
         - ./script/02-entrypoint.sh:/docker-entrypoint-initdb.d/02-entrypoint.sh
       command: ["--replSet", "dbrs", "--bind_ip_all"]
@@ -28,4 +28,3 @@ services:
 
 volumes:
   mongo_data:
-  postgres_data:
