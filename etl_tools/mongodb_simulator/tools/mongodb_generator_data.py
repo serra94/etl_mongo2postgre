@@ -8,7 +8,9 @@ class DataGenerator:
         self.fake = Faker('pt_BR')
 
     def generate_data(self):
-        raise NotImplementedError("Subclasses devem implementar este método")
+        raise NotImplementedError(
+            "Subclasses devem implementar este método"
+        )
 
     def generate(self, quantity=1, generate_file=False, output_path='../data'):
         self.quantity = quantity
