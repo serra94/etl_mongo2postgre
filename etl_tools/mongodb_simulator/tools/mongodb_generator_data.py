@@ -1,7 +1,9 @@
+import csv
+from faker import Faker
 import json
 import os
 import random
-from faker import Faker
+
 
 class DataGenerator:
     def __init__(self):
@@ -64,3 +66,37 @@ class ClientGenerator(DataGenerator):
 
         } for _ in range(self.quantity)]
         return collection_name, clients
+    
+
+class LocationGenerator(DataGenerator):
+    def generate_data(self):
+        collection_name = 'LocationCollection'
+
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        print(f'\n{script_dir}')
+       
+            
+        file_path = os.path.join(script_dir, '../../..', 'data', 'municipios.csv')
+        print(f'\n{file_path}')
+
+        with open(file_path, newline='', encoding='utf-8') as csvfile:
+            read = csv.reader(csvfile, delimiter=',')
+        
+            next(read)
+
+            data = list(read)
+                       
+            row = random.choice(data)
+            city_id = row[0]
+            latitude = row[2]
+            longitude = row[3]
+
+            location = [{
+                'id': city_id,
+                'latitude': latitude,
+                'longitude': longitude
+
+        } for _ in range(self.quantity)]
+        return collection_name, location
+    
+
