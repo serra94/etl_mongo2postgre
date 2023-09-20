@@ -61,7 +61,12 @@ class ClientGenerator(DataGenerator):
         collection_name = 'ClientCollection'
         clients = [{
             'name': f'{self.fake.company()} {self.fake.company_suffix()}',
-            'cnpj': self.fake.cnpj()
+            'cnpj': self.fake.cnpj(),
+            #NEW - OPEN
+            'address': self.fake.address(),
+            'phone_number': self.fake.phone_number(),
+            'e-mail': self.fake.ascii_free_email()
+            #NEW - CLOSE
             # CONTINUAR A COMPLETAR O DOC
 
         } for _ in range(self.quantity)]
@@ -127,12 +132,23 @@ class DeliveryGenerator(DataGenerator):
 
         build_driver = DriverGenerator()
         build_vehicle = VehicleGenerator()
+        build_client = ClientGenerator()
+        build_location = LocationGenerator()
+        build_product = ProductGenerator()
         # CONTINUAR A COMPLETAR O DOC
 
         deliverys = [{
 
             'driver': build_driver.generate()[1][0],
-            'vehicle': build_vehicle.generate()[1][0]
+            'vehicle': build_vehicle.generate()[1][0],
+            'client': build_client.generate()[1][0],
+            'data_delivery': {
+                'data_start': "",
+                'origin': build_location.generate()[1][0],
+                'destination': build_location.generate()[1][0],
+                'product': build_product.generate()[1][0]
+                }
+            
             # CONTINUAR A COMPLETAR O DOC COM AS DEMAIS CLASSES.
 
             # COM "LocationGenerate" TALVEZ SERÁ NECESSÁRIO INTRODUZIR UMA
